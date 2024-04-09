@@ -2,8 +2,36 @@
 <html>
   <head>
     <title>Title</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/Sphere_Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Sphere_Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Sphere_Favicon/favicon-16x16.png">
+    <link rel="manifest" href="/Sphere_Favicon/site.webmanifest">
   </head>
   <body>
-    <p>Paragraph</p>
+    <!-- Scripts -->
+    <script src="/js/script.js"></script>
+    <h1>Calculating the Volume of a sphere in Javascript</h1>
+    
+    <br>
+    <center>
+      <table>
+        <tr>
+          <th>
+            <img src="images/500px-Sphere-300x300.png" style="width: 250px;"> 
+          </th>
+          <td>
+            <p>Input the radius:</p> <br>
+            <input id="radius" placeholder="Radius (cm)" type="number" min="0" step=".01">
+            <br>
+            <br>
+            <button onclick="Calculate()" id="Calculate Button">Calculate</button>
+            <br>
+            <div id="Output"> <p>Volume:</p> </div>
+          </td>
+        </tr>
+      </table>
+    </center>
   </body>
 </html>
